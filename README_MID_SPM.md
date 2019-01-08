@@ -13,6 +13,7 @@ To use these scripts for your analysis, make use you structure the your folder i
 
 ## Pre-processing 
 Download **preproc_JY.m**
+
 To use this script for your pre-processing, make sure your change the following lines: 
 1. Line 1: i = the number of the subject, which identical to the number of 'P' folder, for example, to analyse folder 'P1', put i = 1
 2. line 4: change directory to where your 'subs' is located.
