@@ -6,7 +6,7 @@ These file consists of scripts for fMRI pre-processing, 1st level analysis and 2
 Instructions: 
 To use these scripts for your analysis, make use you structure the your folder in the following steps:
 1. create a folder called **'subs'**
-2. create a folder for each of your subjects. name as 'Px', where x is the identification number for your subject. eg. P1, P2, P3.....
+2. create a folder for each of your subjects. name as 'Px', where x is the identificable number for your subject. eg. P1, P2, P3.....
 3. within each **'Px'** folder you create, make sure you have both the anatomy and functional scans of the subject.
 4. rename the folder contains your anatomy scans as **'anat'**, and **'func'** for the functional images. Do it for all participants. 
 
