@@ -9,7 +9,7 @@ To use these scripts for your analysis, make use you structure the your folder i
 2. create a folder for each of your subjects. name as 'Px', where x is the identification number for your subject. eg. P1, P2, P3.....
 3. within each **'Px'** folder you create, make sure you have both the anatomy and functional scans of the subject.
 4. rename the folder contains your anatomy scans as **'anat'**, and **'func'** for the functional images. Do it for all participants. 
-5. 
+
 
 ## Pre-processing 
 Download **preproc_JY.m**
@@ -21,4 +21,12 @@ To use this script for your pre-processing, make sure your change the following 
 4. line 94: change directory to where your SPM is located on you computer. 
 
 
-you have to change for each subject. Technically, it is feasible to write a loop so that SPM would analyse the scans of all participants in the folder without needing to change to subject number. Practically, however it is alwasys **Recommanded** to check the result of pre-processed images, and I would recommand you to do so after each run. 
+###Note: 
+You have to change for each subject number each time your run the script. Technically, it is feasible to write a loop so that SPM would analyse the scans of all participants in the folder without needing to change to subject number. Practically, however it is alwasys **Recommanded** to check the result of pre-processed images, and I would recommand you to do so after each run. 
+
+
+## First-Level analysis
+
+You will need to change your contrast codings depending on the functional task. I created this script to analyse the 'Monetary Incentive Delay Task'. 
+
+
